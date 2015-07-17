@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/activity/BaseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/activity/IBaseClick.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/activity/IBaseListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/adapter/BaseWXAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/adapter/IAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/adapter/JsonBaseAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/adapter/LogicBaseAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/adapter/ObjectBaseAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/db/DBLogic.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/db/DBSql.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/dialog/DialogTools.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/dialog/IDialog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/AsyncHttpClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/AsyncHttpRequest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/AsyncHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/Base64.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/Base64DataException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/Base64OutputStream.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/BaseJsonHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/BinaryHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/DataAsyncHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/FileAsyncHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/HttpDelete.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/HttpGet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/HttpPatch.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/JsonHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/JsonStreamerEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/JsonValueInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/MyRedirectHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/MySSLSocketFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/PersistentCookieStore.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/PreemtiveAuthorizationHttpRequestInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/RangeFileAsyncHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/RequestHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/RequestParams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/ResponseHandlerInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/RetryHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/SaxAsyncHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/SerializableCookie.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/SimpleMultipartEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/SyncHttpClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/TextHttpResponseHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/Utils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/package-info.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/ssl/tool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/urlconnection/ByteUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/urlconnection/HTTPAsyncTask.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/urlconnection/HTTPConnectTool.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/http/urlconnection/IHTTPAsyncTask.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/id/EventListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/id/InjectUtility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/id/Select.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/id/ViewInject.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/toast/CommonToast.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/view/BaseView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frame/src/main/java/com/frame/view/IBaseView.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
