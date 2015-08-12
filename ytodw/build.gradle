@@ -14,6 +14,10 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+
+        ndk {
+            moduleName "hello"
+        }
     }
     buildTypes {
         release {
@@ -31,17 +35,43 @@ android {
         wandoujia {
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
         }
+        x86 {
+            versionCode Integer.parseInt("6" + defaultConfig.versionCode)
+            ndk {
+                abiFilter "x86"
+            }
+        }
+        mips {
+            versionCode Integer.parseInt("4" + defaultConfig.versionCode)
+            ndk {
+                abiFilter "mips"
+            }
+        }
+        armv7 {
+            versionCode Integer.parseInt("2" + defaultConfig.versionCode)
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        arm {
+            versionCode Integer.parseInt("1" + defaultConfig.versionCode)
+            ndk {
+                abiFilters "armeabi", "armeabi-v7a"
+            }
+        }
     }
     android {
         lintOptions {
             abortOnError false
         }
     }
+    sourceSets { main { jni.srcDirs = ['src/main/jni'] } }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':frame')
+    compile project(':materialdialogs')
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.umeng.analytics:analytics:latest.integration'
 }
