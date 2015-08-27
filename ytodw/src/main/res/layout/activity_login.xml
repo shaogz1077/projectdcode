@@ -8,11 +8,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ytpdw.fun.login.LoginActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <!--<TextView-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/hello_world" />-->
+    <com.ytpdw.fun.viewtools.ViewHorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <!--<P&lt;!&ndash;rogressBar
+        android:id="@+id/indeterminate_progress_large_library"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-
+        android:layout_gravity="left|bottom"
+        android:indeterminate="true"
+        style="@style/-->Widget.Ma-->terialProgressBar.ProgressBar.Large" />
 </RelativeLayout>

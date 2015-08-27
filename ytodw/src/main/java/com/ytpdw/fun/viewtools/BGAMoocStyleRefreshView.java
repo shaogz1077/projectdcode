@@ -172,7 +172,6 @@ public class BGAMoocStyleRefreshView extends View {
         mBezierControlY = mBezierControlOriginalY;
         mBezierControlX = 0;
         postInvalidate();
-        ;
     }
 
     @Override
