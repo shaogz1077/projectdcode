@@ -2,7 +2,10 @@ package com.ytpdw.fun.viewtools;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.DashPathEffect;
 import android.graphics.Paint;
+import android.graphics.Path;
+import android.graphics.PathEffect;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
@@ -24,6 +27,7 @@ import java.util.List;
  * @date 2015/8/25 17:18
  */
 public class ViewHorizontalScrollView extends View {
+    Path pa;
     private Paint paint;
     private Context mContext;
     private int width;
@@ -35,7 +39,9 @@ public class ViewHorizontalScrollView extends View {
     private float d;
     private float scrollOffset;
     private float unnecessaryOffset;
-
+    private PathEffect effect;
+    private Paint mPaint;
+    private Paint mTextPaint;
     private Scroller scroller;
     GestureDetector.SimpleOnGestureListener getureListener = new GestureDetector.SimpleOnGestureListener() {
         @Override
@@ -98,6 +104,12 @@ public class ViewHorizontalScrollView extends View {
     }
 
     private void initView() {
+
+
+        mTextPaint = new Paint();
+        mTextPaint.setTextSize(15);
+        mTextPaint.setColor(getResources().getColor(android.R.color.black));
+
         paint = new Paint();//设置画笔
         paint.setTextSize(80);
         paint.setStrokeWidth(4);
@@ -144,6 +156,17 @@ public class ViewHorizontalScrollView extends View {
         height = getHeight();
         scale = width / 3f;//区分等份
         canvasWidth = 0;
+
+        mPaint = new Paint();
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setColor(getResources().getColor(android.R.color.holo_blue_dark));
+        PathEffect effect = new DashPathEffect(new float[]{1, 2, 4, 8}, 1);
+        mPaint.setStrokeWidth(4);
+        mPaint.setPathEffect(effect);
+
+        pa = new Path();
+        pa.moveTo(0, height / 2);
+        pa.lineTo(width, height / 2);
         drawContent(canvas);
     }
 
@@ -153,10 +176,12 @@ public class ViewHorizontalScrollView extends View {
      * @param canvas
      */
     private void drawContent(Canvas canvas) {
+
         float finalCX = width / 2;
         float ch = height / 2;
         cx = -0.5f * scale;
         float progress = 0;
+
         ItemInfo itemInfo;
         for (int i = 0; i < 10; i++) {
             cx += scale;
@@ -205,7 +230,15 @@ public class ViewHorizontalScrollView extends View {
         for (int i = 0; i < items.size(); i++) {//在同样的高下绘制不同大小的圆
             ItemInfo info = items.get(i);
             canvas.drawCircle(info.cx, ch, info.r, paint);
+            canvas.drawText("你好", info.cx - info.r, ch, mTextPaint);
         }
+
+
+        canvas.drawPath(pa, mPaint);
+//        canvas.drawPath(pa,mPaint);
+//        canvas.drawLine(0,ch,canvasWidth,ch,mPaint);
+//        canvas.drawLine(finalCX,ch,canvasWidth,ch,mPaint);
+
     }
 
     class ItemInfo {
