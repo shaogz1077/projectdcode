@@ -160,7 +160,7 @@ public class ViewHorizontalScrollView extends View {
         mPaint = new Paint();
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setColor(getResources().getColor(android.R.color.holo_blue_dark));
-        PathEffect effect = new DashPathEffect(new float[]{1, 2, 4, 8}, 1);
+        PathEffect effect = new DashPathEffect(new float[]{5, 5, 5, 5}, 2);
         mPaint.setStrokeWidth(4);
         mPaint.setPathEffect(effect);
 

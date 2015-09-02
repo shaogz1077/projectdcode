@@ -19,14 +19,17 @@
             android:name="UMENG_CHANNEL"
             android:value="${UMENG_CHANNEL_VALUE}" />
 
-        <activity android:name="com.ytpdw.fun.login.LoginActivity">
+        <activity android:name="com.ytpdw.fun.viewactivity.Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <!--<activity-->
+        <!--android:name="com.ytpdw.fun.viewactivity.Main2Activity"-->
+        <!--android:label="@string/title_activity_main2" >-->
+        <!--</activity>-->
     </application>
 
 </manifest>
