@@ -70,5 +70,6 @@ public class TableViewCanvas extends View {
         canvas.drawPoints(new float[]{120, 230, 340, 450, 380, 340}, mPonitPaint);
         canvas.drawLine(120, 230, 340, 450, mLinePaint);
         canvas.drawLine(340, 450, 380, 340, mLinePaint);
+        canvas.drawLine(100, 100, 200, 200, mLinePaint);
     }
 }

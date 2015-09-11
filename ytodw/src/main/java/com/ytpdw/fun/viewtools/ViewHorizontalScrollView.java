@@ -232,8 +232,6 @@ public class ViewHorizontalScrollView extends View {
             canvas.drawCircle(info.cx, ch, info.r, paint);
             canvas.drawText("你好", info.cx - info.r, ch, mTextPaint);
         }
-
-
         canvas.drawPath(pa, mPaint);
 //        canvas.drawPath(pa,mPaint);
 //        canvas.drawLine(0,ch,canvasWidth,ch,mPaint);
