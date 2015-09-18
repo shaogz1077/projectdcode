@@ -33,6 +33,7 @@ class Interpolators {
             PATH_INDETERMINATE_HORIZONTAL_RECT1_TRANSLATE_X.cubicTo(0.7151610251224f,
                     0.639379624869f, 0.81625f, 0.974556908664f, 1, 1);
         }
+
     }
 
     public static class INDETERMINATE_HORIZONTAL_RECT1_SCALE_X {
@@ -62,7 +63,6 @@ class Interpolators {
         //     0.483333333333,0.489826169306
         // C 0.69,0.80972296795 0.793333333333,0.950016125212 1.0,1.0
         private static final Path PATH_INDETERMINATE_HORIZONTAL_RECT2_TRANSLATE_X;
-   ;
         public static final Interpolator INSTANCE =
                 PathInterpolatorCompat.create(PATH_INDETERMINATE_HORIZONTAL_RECT2_TRANSLATE_X);
 
