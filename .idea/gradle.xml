@@ -10,10 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bmobshare" />
+            <option value="$PROJECT_DIR$/echo" />
             <option value="$PROJECT_DIR$/frame" />
             <option value="$PROJECT_DIR$/materialdialogs" />
+            <option value="$PROJECT_DIR$/ndkappdemo" />
             <option value="$PROJECT_DIR$/ytodw" />
           </set>
         </option>

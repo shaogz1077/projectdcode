@@ -1,1 +1,1 @@
-include ':app', ':frame', ':ytodw', ':materialdialogs', ':bmobshare'
+include ':frame', ':ytodw', ':materialdialogs', ':bmobshare', ':ndkappdemo', ':echo'
